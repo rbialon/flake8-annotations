@@ -20,7 +20,7 @@ Add the following section to your Github workflow YAML in the step running flake
       uses: rbialon/flake8-annotations
 ```
 
-Example usage with [Githubs Python starter workflow](https://github.com/actions/starter-workflows/blob/master/ci/python-app.yml):
+Example usage with [Github's Python starter workflow](https://github.com/actions/starter-workflows/blob/master/ci/python-app.yml):
 
 ```yaml
 name: Python application
