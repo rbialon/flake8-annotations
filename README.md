@@ -1,4 +1,4 @@
-# Flake 8 Problem Matcher/Annotations
+# Flake8 Problem Matcher/Annotations
 
 Adds error and warning problem matchers for [flake8](https://flake8.pycqa.org/) checks on Python projects.
 This action only generates [Github Annotations](https://developer.github.com/v3/checks/runs/#annotations-object) from flake8 output, it does *not* run flake8.
