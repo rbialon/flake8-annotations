@@ -3,3 +3,6 @@ description: 'Annotate PRs with flake8 errors and warnings from Github checks ou
 runs:
   using: 'node12'
   main: 'index.js'
+branding:
+  icon: 'check-circle'
+  color: 'green'
