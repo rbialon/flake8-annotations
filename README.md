@@ -1,7 +1,7 @@
 # Flake 8 Problem Matcher/Annotations
 
-Adds error and warning problem matchers for flake8 checks on Python projects.
-This action only generates Github Annotations from flake8 output, it does *not* run flake8.
+Adds error and warning problem matchers for [flake8](https://flake8.pycqa.org/) checks on Python projects.
+This action only generates [Github Annotations](https://developer.github.com/v3/checks/runs/#annotations-object) from flake8 output, it does *not* run flake8.
 
 ## Inputs
 
@@ -20,7 +20,7 @@ Add the following section to your Github workflow YAML in the step running flake
       uses: rbialon/flake8-annotations
 ```
 
-Example usage with Githubs Python starter workflow:
+Example usage with [Githubs Python starter workflow](https://github.com/actions/starter-workflows/blob/master/ci/python-app.yml):
 
 ```yaml
 name: Python application
