@@ -1,6 +1,6 @@
 import time
 
-def UPPERCASE(ARG):
+def violation(ARG): 
     if ARG:
         return 0
     else:
