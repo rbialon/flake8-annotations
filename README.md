@@ -21,7 +21,7 @@ Add the following section to your Github workflow YAML in the step running flake
 
 ```yaml
     - name: Setup flake8 annotations
-      uses: rbialon/flake8-annotations
+      uses: rbialon/flake8-annotations@v1
 ```
 
 Example usage with [Github's Python starter workflow](https://github.com/actions/starter-workflows/blob/master/ci/python-app.yml):
@@ -47,7 +47,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Setup flake8 annotations
-      uses: rbialon/flake8-annotations
+      uses: rbialon/flake8-annotations@v1
     - name: Lint with flake8
       run: |
         pip install flake8
