@@ -1,4 +1,5 @@
 name: 'Flake8 Annotator'
+author: 'Raphael Bialon'
 description: 'Annotate PRs with flake8 errors and warnings from Github checks output'
 runs:
   using: 'node12'
