@@ -11,6 +11,10 @@ No inputs needed.
 
 Only Github Annotations are generated from the Checks output, no other output is generated.
 
+## Screenshot
+
+![Example annotations for file violations.py](https://user-images.githubusercontent.com/8565229/74146391-48e70780-4c01-11ea-9c8b-7dc1ffa8d787.png)
+
 ## Example usage
 
 Add the following section to your Github workflow YAML in the step running flake8 before executing flake8:
