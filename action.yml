@@ -1,0 +1,5 @@
+name: 'Flake8 Annotator'
+description: 'Annotate PRs with flake8 errors and warnings from Github checks output'
+runs:
+  using: 'node12'
+  main: 'index.js'
