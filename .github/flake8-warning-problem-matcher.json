@@ -5,7 +5,14 @@
       "severity": "warning",
       "pattern": [
         {
-          "regexp": "^([^:]+):(\\d+):(\\d+):\\s+([CFNW]\\d+\\s+.+)$",
+          "regexp": "^([^:]+):(\\d+):(\\d+):\\s+([BCDIFNSW]\\d+\\s+.+)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        },
+        {
+          "regexp": "^([^:]+):(\\d+):(\\d+):\\s+(ANN\\d+\\s+.+)$",
           "file": 1,
           "line": 2,
           "column": 3,
